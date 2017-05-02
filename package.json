@@ -1,0 +1,36 @@
+{
+  "name": "everythingorganic",
+  "version": "1.0.0",
+  "description": "organic food and fruits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyam0074/Everythingorganic.git"
+  },
+  "author": "priyam (priyam.vashishtha2011@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyam0074/Everythingorganic/issues"
+  },
+  "homepage": "https://github.com/priyam0074/Everythingorganic#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "json-loader": "^0.5.4",
+    "node": "0.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

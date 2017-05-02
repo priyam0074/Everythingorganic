@@ -1,0 +1,42 @@
+.headerMain {
+    display: block;
+}
+
+.headerAlign {
+    color: #fff;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+	}
+
+.headerItems {
+    margin: auto;
+    min-height: 80px;
+    min-width: 980px;
+    max-width: 980px;
+}
+.imageLogo {
+    display: inline-block;
+    width:70px;
+    height:60px;
+    margin-top:10px;
+}
+.logoText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: #BEC936;
+    display:inline-block;
+}
+.logoText span{
+   position:relative;
+   clear: left;
+   right: 135px;
+   top: 19px;
+   color:#FB7037;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+}
