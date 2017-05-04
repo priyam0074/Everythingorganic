@@ -1,5 +1,6 @@
 .headerMain {
     display: block;
+    min-height: 80px;
 }
 
 .headerAlign {
@@ -11,6 +12,7 @@
     z-index: 9;
     background: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    min-height: 80px;
 	}
 
 .headerItems {
@@ -66,6 +68,7 @@
 }
 .subItems:hover {
     color: black;
+    border-bottom:3px solid#ee5f73;
 }
 .searchBox {
   display:inline-block;

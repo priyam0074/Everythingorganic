@@ -1,0 +1,8 @@
+.caruselTemplate {
+    margin: auto;
+    min-width: 980px;
+    max-width: 980px;
+    color:black;
+    display:block;
+    margin-bottom:16px;
+}

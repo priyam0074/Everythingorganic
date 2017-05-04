@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-
-import  LoginComponent from './login.component.js';
-
+import MainPageComponent from './mainPage.component.js';
+import  HeaderComponent from './header.component.js';
+import OfferTemplate from './offerTemplate.component.js';
 render(
-	<LoginComponent/> , document.getElementById('react-container'));
+	<MainPageComponent/> , document.getElementById('react-container'));

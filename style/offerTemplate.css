@@ -1,0 +1,16 @@
+.templateSpacing {
+    margin: auto;
+    margin-top: 16px; /*//wrong need to be rectified*/
+    min-width: 980px;
+    max-width: 980px;
+    color:black;
+    display:block;
+    margin-bottom: 40px;
+}
+.templateOffers {
+    display:inline-block;
+    width: 286px;
+    margin-right: 28px;
+    height: 145px;
+    cursor:pointer;
+}

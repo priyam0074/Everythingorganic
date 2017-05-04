@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
-import css from '../style/mainPage.css';
+import css from '../style/mainPageHeader.css';
+import OfferTemplate from './offerTemplate.component.js';
 
-
-export default class LoginComponent extends React.Component {
+export default class HeaderComponent extends React.Component {
  
 
 	render() {
@@ -44,8 +44,10 @@ export default class LoginComponent extends React.Component {
             <span className="fa fa-cart-arrow-down" aria-hidden="true"></span>
             </div>
         </div>
-
+         
     </header>
+    
+    
 </div>)
 	}
 }
